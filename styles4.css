@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+    background-color: #fff; /* Set body background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center align items horizontally */
+    background-color: whitesmoke; /* Background color for container */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+}
+
+.pic {
+    margin-bottom: 20px; /* Added margin to bottom for spacing */
+}
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+}
+
+.text {
+    margin-top: 10px; /* Adjusted margin top for spacing */
+    text-align: center;
+    margin: auto;
+}
+
+.text h1 {
+    margin: 0; /* Remove default margin */
+    text-align: center;
+    margin: auto;
+}
+
+
+.id{
+    text-align:center; /* Center align text */
+    margin-bottom: 100px; /* Adjusted margin for spacing */
+    margin-top: 200px;
+
+}
